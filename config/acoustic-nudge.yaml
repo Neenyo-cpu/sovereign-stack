@@ -1,0 +1,13 @@
+﻿nudge_profiles:
+  traffic_flow:
+    frequency_range: "432Hz-528Hz"
+    pattern: "stochastic_rhythm"
+    objective: "reduce_braking_latency"
+  civic_vibe:
+    frequency_range: "10Hz-20Hz" # Sub-threshold calming
+    pattern: "ambient_wash"
+    objective: "increase_prosocial_interaction"
+
+hardware_mapping:
+  speaker_type: "beam_forming_ultrasonic"
+  spatial_audio_engine: "RDK-3_Resonance"
